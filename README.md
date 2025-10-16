@@ -40,24 +40,24 @@ UVICORN_WORKERS=<uvicorn_workers_number>
 
 #### General settings
 
-`APP_PREFIX` Application prefix (default: _/api/graph_)  
+`APP_PREFIX` Application prefix (default: _/api/graph_)
 
 #### Inventory gRPC
 
-`INVENTORY_GRPC_HOST` Host of the gRPS server, which is raised in the inventory (default: _localhost_)  
-`INVENTORY_GRPC_PORT` Port of the gRPS server, which is raised in the inventory (default: _50051_)  
+`INVENTORY_GRPC_HOST` Host of the gRPS server, which is raised in the inventory (default: _localhost_)
+`INVENTORY_GRPC_PORT` Port of the gRPS server, which is raised in the inventory (default: _50051_)
 
 #### Arango
 
-`ARANGO_PROTOCOL` Communication protocol with Arango. Possible options: _http_, _https_ (default: _http_)  
-`ARANGO_HOST` Arango host (default: _localhost_)  
-`ARANGO_PORT` Arango port (default: _8529_)  
-`ARANGO_USERNAME` User with admin rights in the database (default: _root_)  
-`ARANGO_PASSWORD` Arango user password (default: _rootpassword_)  
+`ARANGO_PROTOCOL` Communication protocol with Arango. Possible options: _http_, _https_ (default: _http_)
+`ARANGO_HOST` Arango host (default: _localhost_)
+`ARANGO_PORT` Arango port (default: _8529_)
+`ARANGO_USERNAME` User with admin rights in the database (default: _root_)
+`ARANGO_PASSWORD` Arango user password (default: _rootpassword_)
 
 #### Compose
 
-- `REGISTRY_URL` - Docker regitry URL, e.g. `harbor.avataa.dev`
+- `REGISTRY_URL` - Docker regitry URL, e.g. `harbor.domain.com`
 - `PLATFORM_PROJECT_NAME` - Docker regitry project Docker image can be downloaded from, e.g. `avataa`
 
 ### Requirements
