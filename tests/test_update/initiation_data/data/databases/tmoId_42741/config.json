@@ -1,0 +1,35 @@
+[
+   {
+      "_key": "start_from",
+      "_id": "config/start_from",
+      "_rev": "_hzKdrA----",
+      "tmo_id": 42742,
+      "tprm_id": 127111
+   },
+   {
+      "_key": "group_by",
+      "_id": "config/group_by",
+      "_rev": "_h4DDA26---",
+      "tprms": [
+         127111
+      ]
+   },
+   {
+      "_key": "trace_tmo_id",
+      "_id": "config/trace_tmo_id",
+      "_rev": "_h4DDA3----",
+      "tmo_id": 42753
+   },
+   {
+      "_key": "trace_tprm_id",
+      "_id": "config/trace_tprm_id",
+      "_rev": "_h4DDA3G---",
+      "tprm_id": 126300
+   },
+   {
+      "_key": "delete_orphan_branches",
+      "_id": "config/delete_orphan_branches",
+      "_rev": "_h4DDA3K---",
+      "delete_orphan_branches": false
+   }
+]
